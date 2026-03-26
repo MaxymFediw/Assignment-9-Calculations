@@ -74,13 +74,15 @@
             // 
             // btnDivide
             // 
+            this.btnDivide.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnDivide.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDivide.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnDivide.Location = new System.Drawing.Point(37, 327);
             this.btnDivide.Name = "btnDivide";
             this.btnDivide.Size = new System.Drawing.Size(75, 63);
             this.btnDivide.TabIndex = 3;
             this.btnDivide.Text = "÷";
-            this.btnDivide.UseVisualStyleBackColor = true;
+            this.btnDivide.UseVisualStyleBackColor = false;
             this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
             // 
             // lblAdd
@@ -127,9 +129,9 @@
             // 
             this.btnQuit.Font = new System.Drawing.Font("Stencil", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuit.ForeColor = System.Drawing.Color.Crimson;
-            this.btnQuit.Location = new System.Drawing.Point(652, 363);
+            this.btnQuit.Location = new System.Drawing.Point(660, 388);
             this.btnQuit.Name = "btnQuit";
-            this.btnQuit.Size = new System.Drawing.Size(120, 48);
+            this.btnQuit.Size = new System.Drawing.Size(128, 50);
             this.btnQuit.TabIndex = 8;
             this.btnQuit.Text = "Quit";
             this.btnQuit.UseVisualStyleBackColor = true;
@@ -140,6 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnQuit);
             this.Controls.Add(this.lblDivide);
